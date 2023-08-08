@@ -1,0 +1,59 @@
+/* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: black;
+  padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo  */
+.header a.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color:BLACK;
+  color: red;
+}
+
+.cards-slide{
+  width: 100%;
+  height: 100vh;
+  background-image: url(cropped-glass_building_reflection-wallpaper-1920x1080-1.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  display:flex;
+
+}
+.card{
+  height: 350px;
+  backdrop-filter: blur(100px);
+  color: aqua;
+  border-radius: 20px 20px;
+}
+.card img{
+  border-radius: 20px 20px; 
+  margin-left: 35px;
+  width: 100%;
+}
+.card h5{
+  font-size: 20px;
+}
+.card a{
+  font-size: 20px;
+  color:white;
+  text-align: center;
+}
